@@ -41,3 +41,12 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Editor backup files
+*.*~
+
+# course assignments
+*.pdf
+
+# SML executable
+*.lnk
