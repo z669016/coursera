@@ -167,7 +167,8 @@ val oldest_tests =
 		none andalso
 		oneDate andalso
 		twoDates andalso
-		threeDates
+		threeDates andalso
+		fourDates
 	end;
 
 val hw1_tests = 
