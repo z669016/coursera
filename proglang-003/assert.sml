@@ -1,17 +1,12 @@
-fun assertBoolEquals(expected : bool, actual : bool) =
+fun assertEquals(expected, actual) =
     (expected = actual);
 
 fun assertTrue(actual : bool) =
-    assertBoolEquals(true, actual);
+    assertEquals(true, actual);
 
 fun assertFalse(actual : bool) =
-    assertBoolEquals(false, actual);
+    assertEquals(false, actual);
 
-fun assertIntEquals(expected : int, actual : int) =
-    (expected = actual);
-
-fun assertEquals(expected, actual) =
-    (expected = actual);
 
 	
 	
